@@ -1,0 +1,99 @@
+# =========================
+# Environment Variables & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+.envrc
+
+# =========================
+# Python & Bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# =========================
+# Virtual Environments & Conda
+# =========================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+# Conda environment export artifacts (if generated locally)
+*.conda
+
+# =========================
+# Project-Specific & MCP Caches
+# =========================
+# Weather / Custom MCP server local caches or logs
+*.log
+logs/
+custom_weather_mcp_server.log
+
+# =========================
+# Database & PostgreSQL Checkpointer
+# =========================
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.sql.dump
+*.dump
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+tempCodeRunnerFile.py
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Operating System Files
+# =========================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+*~
+
+# =========================
+# Packaging & Builds
+# =========================
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# =========================
+# Testing & Code Quality
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
